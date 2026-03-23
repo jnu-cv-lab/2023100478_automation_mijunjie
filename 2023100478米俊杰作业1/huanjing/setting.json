@@ -1,0 +1,5 @@
+{
+    "python.defaultInterpreterPath": "/home/alexander/cv-course/.venv-basic/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.analysis.extraPaths": ["./src"]
+}
