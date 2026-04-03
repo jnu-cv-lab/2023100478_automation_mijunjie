@@ -156,3 +156,15 @@ plt.savefig("result/all_result.png", dpi=300, bbox_inches='tight')
 plt.close()
 
 print("\n✅ 全部完成！图片已保存到 result/ 文件夹")
+原图尺寸：500x500
+
+===== MSE & PSNR =====
+最近邻：MSE=64.12, PSNR=30.06dB
+双线性：MSE=54.87, PSNR=30.74dB
+双三次：MSE=47.14, PSNR=31.40dB
+
+===== DCT 低频能量占比(10%) =====
+原图：0.9906
+双线性恢复：0.9952
+
+✅ 全部完成！图片已保存到 result/ 文件夹
